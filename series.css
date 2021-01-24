@@ -1,0 +1,100 @@
+body {
+    background-color: lightgray;
+}
+
+nav {
+
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+nav a {
+
+    color: teal;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+nav a:hover {
+    color: red;
+}
+
+container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: black;
+}
+
+header::after {
+    content: ' ';
+    display: table;
+    clear: both;
+
+}
+
+
+.main {
+    text-align: center;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.jmain {
+
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.image-resize {
+    height: 150px;
+}
+
+#r1 {
+    padding-left: 220px;
+    padding-top: 50px;
+}
+
+#r2 {
+    padding-left: 220px;
+    padding-top: 50px;
+}
+
+
+#r3 {
+    padding-left: 220px;
+    padding-top: 50px;
+}
+
+hr.one {
+
+    border: none;
+    height: 2px;
+    border-radius: 5px;
+    background: black
+}
